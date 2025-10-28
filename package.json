@@ -3,7 +3,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node --env-file=.env server.js",
+    "start": "node --watch --env-file=.env server.js",
     "dev": "node --watch --env-file=.env server.js",
     "test": "vitest",
     "test:database": "vitest database",
